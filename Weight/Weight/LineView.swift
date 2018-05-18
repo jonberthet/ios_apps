@@ -24,7 +24,7 @@ class LineView: UIView {
     public var point3 : CGFloat = 3.0
     public var point4 : CGFloat = 4.0
     public var point5 : CGFloat = 5.0
-    public var point6 : CGFloat = 100.0
+    public var point6 : CGFloat = 2.0
     
     //// Linewidth is defaulted to 2.0
     public var lineWidth : CGFloat = 2.0

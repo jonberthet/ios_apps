@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5B6205A720ADDEA700F974E4 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B6205A620ADDEA700F974E4 /* HealthKit.framework */; };
 		5B6205A920ADE34800F974E4 /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6205A820ADE34800F974E4 /* HealthManager.swift */; };
+		5B6205AB20AE027800F974E4 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B6205AA20AE027800F974E4 /* CloudKit.framework */; };
 		AE6D793B1DE34B670054A07E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6D793A1DE34B670054A07E /* AppDelegate.swift */; };
 		AE6D793D1DE34B670054A07E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6D793C1DE34B670054A07E /* ViewController.swift */; };
 		AE6D79401DE34B670054A07E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE6D793E1DE34B670054A07E /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 		5B6205A420ADDEA700F974E4 /* Weight.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Weight.entitlements; sourceTree = "<group>"; };
 		5B6205A620ADDEA700F974E4 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		5B6205A820ADE34800F974E4 /* HealthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
+		5B6205AA20AE027800F974E4 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		AE6D79371DE34B670054A07E /* Weight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE6D793A1DE34B670054A07E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE6D793C1DE34B670054A07E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B6205AB20AE027800F974E4 /* CloudKit.framework in Frameworks */,
 				5B6205A720ADDEA700F974E4 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,6 +74,7 @@
 		5B6205A520ADDEA700F974E4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5B6205AA20AE027800F974E4 /* CloudKit.framework */,
 				5B6205A620ADDEA700F974E4 /* HealthKit.framework */,
 			);
 			name = Frameworks;
@@ -101,8 +105,8 @@
 				5B6205A420ADDEA700F974E4 /* Weight.entitlements */,
 				AEB0059A1DE724170074F33B /* Graphs.swift */,
 				AEB005891DE6FDC90074F33B /* LineView.swift */,
-				AE6D793A1DE34B670054A07E /* AppDelegate.swift */,
 				AE6D793C1DE34B670054A07E /* ViewController.swift */,
+				AE6D793A1DE34B670054A07E /* AppDelegate.swift */,
 				5B6205A820ADE34800F974E4 /* HealthManager.swift */,
 				AE6D793E1DE34B670054A07E /* Main.storyboard */,
 				AE6D79441DE34B670054A07E /* Assets.xcassets */,
@@ -183,7 +187,7 @@
 					};
 					AE6D794D1DE34B670054A07E = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 459CHKAHKX;
+						DevelopmentTeam = VDWY49BAL3;
 						ProvisioningStyle = Automatic;
 						TestTargetID = AE6D79361DE34B670054A07E;
 					};
@@ -411,7 +415,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 459CHKAHKX;
+				DEVELOPMENT_TEAM = VDWY49BAL3;
 				INFOPLIST_FILE = WeightTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devfright.WeightTests;
@@ -426,7 +430,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 459CHKAHKX;
+				DEVELOPMENT_TEAM = VDWY49BAL3;
 				INFOPLIST_FILE = WeightTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devfright.WeightTests;
